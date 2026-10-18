@@ -1,0 +1,18 @@
+{
+  "rpc_url": "https://api.mainnet-beta.solana.com",
+  "ws_url": "wss://api.mainnet-beta.solana.com",
+  "private_key_base58": "YOUR_PRIVATE_KEY_HERE",
+  "buy_amount_sol": 0.05,
+  "slippage_pct": 15.0,
+  "compute_unit_price_micro_lamports": 100000,
+  "use_jito": true,
+  "jito_tip_sol": 0.001,
+  "auto_sell": true,
+  "take_profit_pct": 100.0,
+  "stop_loss_pct": 30.0,
+  "filters": {
+    "min_liquidity_usd": 1000,
+    "max_dev_holding_pct": 10.0,
+    "require_socials": true
+  }
+}
